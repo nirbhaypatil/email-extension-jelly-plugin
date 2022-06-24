@@ -245,6 +245,8 @@
                     <td class="test_failed" colspan="1">
                       <tt>${failed_test.getFullName()}</tt>
                     </td>
+                    <td class="border test_failed" colspan=4>Fail</td>
+
                   </tr>
                 </j:forEach>
                 <j:forEach var="passed_test"
@@ -253,6 +255,8 @@
                     <td class="test_passed" colspan="1">
                       <tt>${passed_test.getFullName()}</tt>
                     </td>
+                    <td class="border test_passed" colspan=4>Pass</td>
+
                   </tr>
                 </j:forEach>
               </j:forEach>
